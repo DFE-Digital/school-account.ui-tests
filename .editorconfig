@@ -1,0 +1,15 @@
+root = true
+
+
+[*]
+
+# Indentation and spacing
+indent_size = 2
+indent_style = space
+
+# New line preferences
+end_of_line = lf
+insert_final_newline = true
+
+# Cleanup
+trim_trailing_whitespace = true

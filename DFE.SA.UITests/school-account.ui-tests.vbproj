@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{BD49512C-0D29-4A92-8F3B-6919FAFA2104}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>school_account.ui_tests</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="Drivers\Driver.cs" />
+    <Content Include="Features\Login.feature.cs" />
+    <Content Include="Helpers\Helpers.cs" />
+    <Content Include="Hooks\TestHooks.cs" />
+    <Content Include="ImplicitUsings.cs" />
+    <Content Include="index.html" />
+    <Content Include="Models\User.cs" />
+    <Content Include="Pages\LoginPage.cs" />
+    <Content Include="Screenshot\2023-05-14_14-27-53_Sign in - GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-14_14-27-58_DfE Sign-in-.png" />
+    <Content Include="Screenshot\2023-05-14_14-27-59_Content page template – Get school business information – GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-38_Sign in - GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-39_Content page template – Get school business information – GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-39_DfE Sign-in-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-42_DfE Sign-in-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-42_Sign in - GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-43_Content page template – Get school business information – GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-45_Sign in - GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-46_Content page template – Get school business information – GOV.UK Prototype Kit-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-46_DfE Sign-in-.png" />
+    <Content Include="Screenshot\2023-05-15_06-51-49_Sign in - GOV.UK Prototype Kit-.png" />
+    <Content Include="Settings\BrowserSettings.cs" />
+    <Content Include="Settings\ConfigurationNotFoundException.cs" />
+    <Content Include="Settings\ConfigurationService.cs" />
+    <Content Include="Settings\WebSettings.cs" />
+    <Content Include="StepDefinitions\LoginStepDefinitions.cs" />
+    <Content Include="videos\2f8814db5fc99e2c5fb81cf4cea7bd9b.webm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\43\6cd76c35daa8f8d120d46c26ca368b3fce3f5c" />
+    <None Include=".git\objects\78\916e1bd421a1277462eafd57100a1505aa8b88" />
+    <None Include=".git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include=".git\objects\ee\fab6f43f685ba0e52d64a240a617d188d9117c" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\DFE.SA.UITests\config\applicationhost.config" />
+    <None Include=".vs\DFE.SA.UITests\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\DFE.SA.UITests\FileContentIndex\0c85c99a-0a00-4c34-bb2a-6043d9dacf76.vsidx" />
+    <None Include=".vs\DFE.SA.UITests\FileContentIndex\1175529b-b5e5-4881-bef9-8c6e6271aa6f.vsidx" />
+    <None Include=".vs\DFE.SA.UITests\FileContentIndex\dcc5170a-c2b8-4da7-8a13-94f6d049e7be.vsidx" />
+    <None Include=".vs\DFE.SA.UITests\FileContentIndex\dd02ff59-9cb5-4542-ae49-ff0cb850fb80.vsidx" />
+    <None Include=".vs\DFE.SA.UITests\FileContentIndex\read.lock" />
+    <None Include=".vs\DFE.SA.UITests\v17\.futdcache.v2" />
+    <None Include=".vs\DFE.SA.UITests\v17\.suo" />
+    <None Include=".vs\DFE.SA.UITests\v17\TestStore\0\004.testlog" />
+    <None Include=".vs\DFE.SA.UITests\v17\TestStore\0\testlog.manifest" />
+    <None Include=".vs\ProjectEvaluation\dfe.sa.uitests.metadata.v6.1" />
+    <None Include=".vs\ProjectEvaluation\dfe.sa.uitests.projects.v6.1" />
+    <None Include=".vs\school-account.ui-tests\v17\TestStore\0\000.testlog" />
+    <None Include=".vs\school-account.ui-tests\v17\TestStore\0\testlog.manifest" />
+    <None Include="appSettings.json" />
+    <None Include="Features\Login.feature" />
+    <None Include="README.md" />
+    <None Include="Settings\MAKINENI, Ram - Shortcut.lnk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\DFE.SA.UITests\FileContentIndex\merges\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
